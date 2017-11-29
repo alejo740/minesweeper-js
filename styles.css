@@ -1,0 +1,46 @@
+.gameContainer{
+	position: relative;
+	background: #868686;
+    font-size: 12px;
+}
+
+.cell{
+    background: #b7b7b7;
+    position: absolute;
+    border-color: #808080;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15%;
+    box-sizing: border-box;
+}
+
+.flag{
+	background-image: url("images/red-flag.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+}
+
+.qmark{
+	background-image: url("images/question-mark.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 60%;
+}
+
+.bomb{
+	background-image: url("images/bomb.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 90%;
+}
+
+.cellPlayed{
+	background: #9a9898;
+    position: absolute;
+    border-color: #696969;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15%;
+    box-sizing: border-box;
+}
